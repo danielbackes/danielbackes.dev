@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import Image from 'next/image'
+import styles from './badge.module.sass';
 
 export type BadgeProps = {
     style?: "plastic" | "flat" | "flat-square" | "for-the-badge" | "social";
@@ -11,20 +12,18 @@ export type BadgeProps = {
     logoColor?: string;
     width?: number;
     height?: number;
-    title: string;
 }
 
 export default function Badge({
-  style = 'flat-square',
-  leftLabel,
-  leftColor,
-  rightLabel,
-  rightColor,
-  logo,
-  logoColor = 'white',
-  width = 55,
-  height = 15,
-  title,
+    style = 'flat-square',
+    leftLabel,
+    leftColor,
+    rightLabel,
+    rightColor,
+    logo,
+    logoColor = 'white',
+    width = 60,
+    height = 24,
 }: BadgeProps) {
     const src = useMemo(
         () => {
@@ -45,12 +44,14 @@ export default function Badge({
     );
 
     return (
-        <Image
-            src={src}
-            width={width}
-            height={height}
-            title={title}
-            alt={title}
-        />
+        <span className={styles.container}>            
+            <Image
+                src={src}
+                width={width}
+                height={height}
+                title={rightLabel}
+                alt={rightLabel}
+            />
+        </span>
     );
 }

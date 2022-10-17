@@ -10,6 +10,12 @@ const nextConfig = {
         port: '',
         pathname: '/badge/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.jsdelivr.net',
+        port: '',
+        pathname: '/gh/devicons/devicon/icons/**',
+      }
     ],
   },
 }
