@@ -12,12 +12,12 @@ export function Contacts() {
         <>
             <Contact
                 Icon={SiProtonmail}
-                url="mailto:danielynx@proton.me"
-                text="danielynx@proton.me"
+                url="mailto:danielbackes@proton.me"
+                text="danielbackes@proton.me"
             />
             <Contact
                 Icon={SiGithub}
-                url="https://github.com/danielynx"
+                url="https://github.com/danielbackes"
                 text="GitHub"
             />
             <Contact

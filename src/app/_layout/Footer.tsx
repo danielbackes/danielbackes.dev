@@ -21,7 +21,7 @@ export function Footer() {
     return (
         <div className={style.footer()}>
             <div>
-                <span className={style.username()}>@danielynx</span> building
+                <span className={style.username()}>@danielbackes</span> building
                 software since 2010 with{" "}
             </div>
             <div>

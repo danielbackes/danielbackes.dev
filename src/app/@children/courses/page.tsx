@@ -17,7 +17,7 @@ export default function Page() {
 
     return (
         <div className={style}>
-            <Card href="https://symfonycasts.com/u/danielynx" target="_blank">
+            <Card href="https://symfonycasts.com/u/danielbackes" target="_blank">
                 <Card.Icon Icon={SiSymfony} />
                 <Card.Text>
                     <div>
@@ -41,7 +41,7 @@ export default function Page() {
                     </div>
                 </Card.Text>
             </Card>
-            <Card href="https://www.freecodecamp.org/danielynx" target="_blank">
+            <Card href="https://www.freecodecamp.org/danielbackes" target="_blank">
                 <Card.Icon Icon={SiFreecodecamp} />
                 <Card.Text>
                     <div className="font-bold">freeCodeCamp</div>
