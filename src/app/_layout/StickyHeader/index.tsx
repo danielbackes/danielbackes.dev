@@ -29,7 +29,7 @@ export function StickyHeader() {
                         height="50"
                         className={style.avatar()}
                     />
-                    <div className={style.name()}>Daniel Backes.</div>
+                    <div className={style.name()}>Daniel Backes</div>
                 </div>
             </ProfileGuard>
 
